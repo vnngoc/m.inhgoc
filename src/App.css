@@ -1,0 +1,176 @@
+body{
+  height: 100vh;
+  background-image: url(./img/hehe1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+ 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.App{
+  text-align: center;
+  color: white;
+}
+.container > h2{
+  color: white;
+
+}
+button.btn.btn-lg.btn-success.mr-20 {
+  margin-right: 20px;
+}
+.animation-text{
+  color: brown;
+  font-size: 80px;
+  margin: 70px 0;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.taskBg{
+  background-color: #555;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 10px 140px 10px 15px;
+  text-align: left;
+  font-size: 22px;
+  position: relative;
+}
+.taskBg div{
+  display: flex;
+  align-items: center;
+}
+.taskNumber{
+  color: #999;
+  border: 1px solid #999;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  text-align: center;
+  font-size: 14px;
+  margin-right: 8px;
+  align-items: center;
+  justify-content: center;
+}
+.taskBg .done .taskText{
+  text-decoration: line-through;
+  opacity: 0.3;
+  flex: 1;
+}
+.taskBg .done .tasktime{
+  text-decoration: line-through;
+  opacity: 0.3;
+  flex: 1;
+}
+.taskBg .taskText{
+  flex: 1;
+}
+.iconsWrap{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  width: auto;
+  display: inline-block;
+}
+.taskBg .iconsWrap span{
+  display: inline-block;
+  margin: 0px 10px 0 10px;
+  cursor: pointer;
+  color: #00ff89;
+}
+.taskBg .iconsWrap span:hover{
+  color: yellow;
+}
+.login-title{
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: black;
+}
+.username-title{
+  color: black;
+}
+.password-title{
+  color: black;
+}
+.login-register{
+  color: black;
+}
+.form-floating>label {
+  color: black;
+}
+.container-about{
+  width: 1000px;
+  background-color: #999;
+  display: flex;
+  margin: auto;
+  padding: 100px 40px;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* flex-direction: column; */
+}
+.title-heading{
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform:translateX(-50%);
+  font-size: 40px;
+  color: #27373d;
+ 
+}
+.context{
+  font-size: 25px;
+  color: black
+}
+.image-about{
+  width: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.container-desc__wrapper{
+  margin-top: 50px;
+  padding: 0 20px;
+}
+.nav-item{
+  justify-content: center;
+  margin-right: 20px ;
+  list-style: none;
+}
+.nav-link:hover {background-color: #ff6f69}
+.nav-link{
+  text-decoration: none;
+  color: black;
+  border: 1px solid #ffcc5c;
+  font-weight: bold;
+  background-color: linear-gradient(to right, red , yellow);
+  padding: 0px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  align-content: center;
+  border-radius: 8px 8px 8px;
+}
